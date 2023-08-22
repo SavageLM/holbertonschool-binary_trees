@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_inorder - Traverses a tree using in-order method
- * @tree: tree to travers
+ * @tree: tree to traverse
  * @func: pointer to function to call
  */
 
@@ -13,5 +13,5 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 
 	binary_tree_inorder(tree->left, func);
 	func(tree->n);
-	binary_tree_inoder(tree->right, func);
+	binary_tree_inorder(tree->right, func);
 }
