@@ -19,7 +19,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
  * Return: returns 1 if full, 0 if not
  */
 
-int full_recursion(binary_tree_t *tree)
+int full_recursion(const binary_tree_t *tree)
 {
 	if (tree)
 	{
